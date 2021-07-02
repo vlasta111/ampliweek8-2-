@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="post" action="https://ampli-html-forms.herokuapp.com/data">
+     <div class="container">
+         <div class="registration">
+            <h1>Registration</h1>
+         </div>
+
+         <div>
+            <label for="Name"><b>Name</b></label>
+            <input type="text" placeholder="Enter your name" name="Name" required>
+
+            <hr class="name">
+         </div>
+
+         <div>
+            <label for="Email"><b>Email</b></label>
+            <input type="text" placeholder="Enter your email" name="Email" required>
+            
+            <hr class="email">
+         </div>
+        
+         <div>
+            <label for="Password"><b>Password</b></label>
+            <input type="password" placeholder="Enter password" name="Password" required>
+
+            <hr class="password">
+         </div>
+         
+         <div>
+            <label for="Confirm"><b>Confirm password</b></label>
+            <input type="password" placeholder="Confirm your password" name="Confirm" required>
+
+            <hr class="confirm">
+         </div>
+
+         <div class="radio">
+            <input class="male-radio" type="radio" name="gender">
+            <label class="male" for="">Male</label>
+
+            <input class="female-radio" type="radio" name="gender">
+            <label class="female" for="">Female</label>
+        </div>
+
+        <div>
+         <label for="message"><b>Your biography</b></label>
+         <textarea class="message" id="message" name="message"></textarea>
+
+         <hr class="message-hr">
+        </div>
+        
+        <div class="Terms">
+         <input id="terms" type="checkbox" checked />
+         <label for="terms">I agree with Terms and Conditions</label>
+        </div>
+
+        <div class="Subscribe">
+         <input id="subscribe" type="checkbox" />
+         <label for="subscribe">Subscribe to our newsletter</label>
+        </div>
+
+        <div class="buttons">
+         <button class="submit" type="submit">Submit</button>
+         <button class="reset" type="reset">Reset</button>
+        </div>
+     </div>
+     </div>
+    </form>
+</body>
+</html>

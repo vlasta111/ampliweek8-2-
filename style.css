@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container{
+    width: 655px;
+    height: 861px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.08);
+}
+
+div{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.registration{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+input[type=text], input[type=password], textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+  
+  input[type=text]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.radio{
+    margin-bottom: 20px;
+}
+
+.male{
+    margin-right: 15px;
+}
+
+.male-radio{
+    margin-right: 5px;
+}
+
+.female-radio{
+    margin-right: 5px;
+}
+
+.name, .password, .confirm{
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    margin-bottom: 25px;
+    margin-top: -22px;
+}
+
+
+.email{
+    border: 1px solid #DB4437;
+    margin-bottom: 25px;
+    margin-top: -22px;
+}
+
+.message-hr{
+    border: 1px solid #00BCD4;
+    margin-bottom: 25px;
+    margin-top: -26px;
+}
+
+.message{
+    resize: none;
+}
+
+.Terms{
+    margin-bottom: 15px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.submit{
+    margin-right: 20px;
+    width: 96px;
+    height: 36px;
+    background: #57BEBE;
+    border: 2px solid #57BEBE;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.reset{
+    width: 96px;
+    height: 36px;
+    background: #291C44;
+    border: 2px solid #291C44;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
